@@ -1,0 +1,1 @@
+tkn pipeline start liberty-sample-pipeline --resource app-source=liberty-app-source-code --resource output-image=open-liberty-image-stream --resource builder-image=intermediate-image-stream

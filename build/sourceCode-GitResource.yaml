@@ -1,0 +1,10 @@
+apiVersion: tekton.dev/v1alpha1
+kind: PipelineResource
+metadata:
+  name: liberty-app-source-code
+  namespace: pipeline-work
+spec:
+  params:
+  - name: url
+    value: https://github.com/marrober/liberty-app.git
+  type: git
